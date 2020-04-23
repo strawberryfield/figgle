@@ -34,7 +34,7 @@ namespace Figgle.Cmd
 
                 try
                 {
-                    Console.WriteLine(FiggleFonts.Standard.Render(message));
+                    Console.WriteLine(FiggleFonts.Lookup("standard").Render(message));
                 }
                 catch (Exception e)
                 {

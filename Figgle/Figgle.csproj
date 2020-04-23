@@ -2,16 +2,16 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
     <VersionPrefix>0.3.0</VersionPrefix>
-    <Authors>Drew Noakes</Authors>
-    <Company />
+    <Authors>Drew Noakes, Roberto Ceccarelli</Authors>
+    <Company>Drew Noakes, Casasoft</Company>
     <Description>ASCII banner generation for .NET</Description>
-    <Copyright>Copyright Drew Noakes 2017</Copyright>
+    <Copyright>Copyright Drew Noakes 2017, Roberto Ceccarelli 2020</Copyright>
     <AssemblyName>Figgle</AssemblyName>
-    <PackageId>Figgle</PackageId>
+    <PackageId>Casasoft.Figgle</PackageId>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/drewnoakes/figgle</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/strawberryfield/figgle</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/drewnoakes/figgle/master/images/logo-square-256px.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/drewnoakes/figgle.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/strawberryfield/figgle.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>figlet;ascii;banner;headings</PackageTags>
     <DebugType>portable</DebugType>
@@ -19,6 +19,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <IncludeSource>true</IncludeSource>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <PackageReleaseNotes>Original work by Drew Noakes, customized by Roberto Ceccarelli</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard1.3\Figgle.xml</DocumentationFile>
