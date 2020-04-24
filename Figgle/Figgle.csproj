@@ -20,6 +20,8 @@
     <IncludeSource>true</IncludeSource>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <PackageReleaseNotes>Original work by Drew Noakes, customized by Roberto Ceccarelli</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.3.1</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard1.3\Figgle.xml</DocumentationFile>

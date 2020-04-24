@@ -304,6 +304,11 @@ namespace Figgle
 // ReSharper restore UnusedMember.Global
 #pragma warning restore CS1591
 
+        /// <summary>
+        /// Gets the font by name
+        /// </summary>
+        /// <param name="name">font name</param>
+        /// <returns></returns>        
         public static FiggleFont Lookup(string name) => _fontByName.GetOrAdd(name, FontFactory);
 
         private static readonly StringPool _stringPool = new StringPool();
