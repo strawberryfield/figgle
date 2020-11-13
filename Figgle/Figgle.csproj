@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Drew Noakes, Roberto Ceccarelli</Authors>
     <Company>Drew Noakes, Casasoft</Company>
@@ -8,7 +8,7 @@
     <Copyright>Copyright Drew Noakes 2017, Roberto Ceccarelli 2020</Copyright>
     <AssemblyName>Figgle</AssemblyName>
     <PackageId>Casasoft.Figgle</PackageId>
-    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/strawberryfield/figgle</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/drewnoakes/figgle/master/images/logo-square-256px.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/strawberryfield/figgle.git</RepositoryUrl>
@@ -21,7 +21,8 @@
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <PackageReleaseNotes>Original work by Drew Noakes, customized by Roberto Ceccarelli</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.3.1</Version>
+    <Version>0.5.0</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard1.3\Figgle.xml</DocumentationFile>
@@ -34,5 +35,11 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)'=='net45'">
     <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\BBS\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
